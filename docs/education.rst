@@ -3,7 +3,7 @@ Education
 
 **M.S. in Marketing (STEM)** — Syracuse University, Whitman School of Management (*Aug 2025 – May 2026*), GPA 4.0/4.0
 
-- Honors: Fulbright Scholar (FFSP); Beta Gamma Sigma (top 10% business honor society).
+- Honors: Fulbright Scholar (FFSP); Beta Gamma Sigma inductee (top 10% business honor society).
 - Coursework: Product Strategy, Digital Advertising, SEO, Growth Marketing, Marketing Analytics.
 
 **M.S. in Data Science** — American College of Greece (*Sep 2023 – Jul 2025*), GPA 4.0/4.0

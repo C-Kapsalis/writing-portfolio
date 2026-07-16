@@ -1,11 +1,20 @@
 Skills
 ======
 
-Technical
----------
+Domain expertise
+----------------
 
-Excel (Power Query, Power Pivot, Solver) · Power BI (advanced DAX) · Tableau ·
-SQL (BigQuery, DuckDB) · Python (pandas, scikit-learn, LLM APIs) · R · Git · Docker.
+**Marketing analytics** — SEM, SEO, email and paid social; marketing-mix
+modeling, customer lifetime value, CAC and ROAS; Google Analytics 4, HubSpot,
+Power BI (advanced DAX), Looker Studio, Tableau, Excel (Power Query, Power
+Pivot, Solver).
+
+**Machine learning and data** — Python (pandas, scikit-learn, LLM APIs); NLP and
+transformers (BERT, spaCy); retrieval-augmented generation (LangChain,
+ChromaDB); SQL (BigQuery, DuckDB); R.
+
+**Documentation and engineering** — Git, Sphinx, reStructuredText, Diátaxis,
+Docker.
 
 Certifications
 --------------
