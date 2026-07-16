@@ -1,0 +1,29 @@
+"""Sphinx configuration for the technical-writing portfolio."""
+
+project = "Christoforos Kapsalis"
+author = "Christoforos Kapsalis"
+copyright = "2026, Christoforos Kapsalis"
+
+extensions = []
+
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+
+# Furo: a clean, modern, responsive theme that reads well on mobile.
+html_theme = "furo"
+html_title = "Christoforos Kapsalis · Technical Writing"
+
+html_theme_options = {
+    "sidebar_hide_name": False,
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/c-kapsalis",
+            "html": "",
+            "class": "fa-brands fa-github",
+        },
+    ],
+}
+
+# So dead internal links fail the build rather than shipping broken.
+nitpicky = False
