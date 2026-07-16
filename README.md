@@ -13,10 +13,13 @@ make serve   # builds and serves at http://localhost:8000
 
 ## Publish (free)
 
-1. Push this repo to GitHub (public).
-2. Repo **Settings -> Pages -> Build and deployment -> Source: GitHub Actions**.
-3. Every push to `main` rebuilds and republishes automatically.
+1. Create a **new** public repo named `writing-portfolio` (any name works;
+   it becomes part of the URL).
+2. Push this project to it.
+3. Repo **Settings -> Pages -> Build and deployment -> Source: GitHub Actions**.
+4. Every push to `main` rebuilds and republishes automatically.
 
-To serve it at `https://<username>.github.io/`, name the repo
-`<username>.github.io`. Any other repo name serves it at
-`https://<username>.github.io/<repo>/`.
+The site is served at `https://c-kapsalis.github.io/writing-portfolio/`,
+sitting alongside the existing `c-kapsalis.github.io` user site without
+conflict. (Sphinx uses relative links, so the subpath works with no config
+change.)
