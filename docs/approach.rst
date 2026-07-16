@@ -16,9 +16,11 @@ It helps the people who use a tool actually reach the goals the tool exists to
 serve — the obvious job, and the one everything else rests on. It shows people
 on the outside what the tool can do and what it is worth, so they can judge
 whether it belongs in their stack and how it compares to the alternatives. And,
-less obviously, it reminds the team that built the tool of the ground they have
-conquered — documentation is the record of a system's achievements, and a
-chance for the people behind it to step back and see what they have made.
+less obviously, it grounds the team that built the tool: documentation is the
+record of the ground they have conquered, a chance to step back and see what
+they have made — and an anchor that holds the team to the direction it agreed
+on, rather than letting it drift toward every new approach a fast-moving AI
+landscape throws up.
 
 Losing sight of any one of these is how documentation quietly fails. Writing
 only for today's users leaves the tool invisible to the people who might adopt
@@ -32,10 +34,12 @@ they are trying to do, not from the feature I happen to want to describe. That
 instinct comes from marketing, where you learn quickly that nobody cares about
 your product on its own terms.
 
-The sharpest lesson I have had here came from a marketing manager at a company
-our product was built to serve. Their question revealed that they were not
-struggling with our reports at all — they were missing the underlying
-fundamentals of their own field that our documentation silently assumed.
+The sharpest lesson I have had here came from a client I had built a Power BI
+data model and a set of reports for, to help their marketing team track its
+digital-marketing performance. One of their marketing managers asked a question
+that revealed they were not struggling with the reports at all — they were
+missing the underlying fundamentals of their own field that my documentation
+silently assumed.
 Documentation is meant to answer the questions its audience is most likely to
 ask, but there can be no questions when there is no underlying knowledge to
 spark them. So part of the job is to supply that knowledge — through glossaries
@@ -70,7 +74,8 @@ Diátaxis is an excellent start, not a straitjacket. How much of it you need is
 set by the complexity of the tool *from the user's point of view*. A small
 command-line tool with a handful of options does not need explanatory essays and
 a wall of how-to guides; it needs a short tutorial and a tight reference. A
-genuinely complex system — a library like PyMC-Marketing, which brings Bayesian
+genuinely complex system — a library like `PyMC-Marketing
+<https://www.pymc-marketing.io/>`__, which brings Bayesian
 modelling to marketers — needs all four modes, plus the theory behind them, plus
 video tutorials, masterclasses and courses to bring people in. The framework
 tells you which kinds of documentation exist; the tool's difficulty, as the user
@@ -86,12 +91,18 @@ If each audience quietly drifts toward its own definition of a term, the gap
 between them widens instead of closing.
 
 The clearest case I have hit is CAC. Marketing reads it as a campaign-efficiency
-signal, finance as a unit-economics input, and if the two are not anchored to
-one governed definition they arrive at the same meeting with different numbers
-bearing the same name — and the tool gets blamed for the disagreement. So I keep
-each definition in exactly one place and have every audience-specific page link
-back to it rather than restate it. Each reader's path can diverge in register,
-but never in substance.
+signal, so it accepts the current level as a baseline and strives to drive it
+down; finance reads it as a unit-economics input, so it wants the number as low
+as possible from the start. Neither reading is wrong, but if the two are not
+anchored to one governed definition they arrive at the same meeting with
+different numbers bearing the same name — and the tool gets blamed for the
+disagreement. The answer, for concepts this heavyweight, is less a documentation
+trick than a governance one: the definition has to stand as a corporate-level,
+agreed-upon standard — settled once for the whole organization — not a number any
+single team gets to argue its way to. In practice I keep each such definition in
+exactly one place and have every audience-specific page link back to it rather
+than restate it, so a reader's path can diverge in register but never in
+substance.
 
 Documentation is a product
 -------------------------------------------------------------

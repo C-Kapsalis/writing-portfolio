@@ -7,6 +7,8 @@ copyright = "2026, Christoforos Kapsalis"
 extensions = []
 
 templates_path = ["_templates"]
+html_static_path = ["_static"]
+html_js_files = ["new-tab.js"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # Furo: a clean, modern, responsive theme that reads well on mobile.

@@ -42,7 +42,8 @@ AI fluency
 ----------
 
 AI is not a side interest for me; it is part of what I build and how I work. At
-Maya Insights I helped build a conversational MCP layer that lets marketers
+`Maya Insights <https://mayainsights.com>`_ I helped build a conversational MCP
+layer that lets marketers
 query a data model in natural language, so I have seen first-hand how completely
 the quality of an answer depends on the quality of the documentation beneath it.
 I use LLMs throughout my own documentation workflow — drafting, editing and

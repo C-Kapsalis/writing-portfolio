@@ -44,15 +44,9 @@ top, and in that world documentation is usually an afterthought. But I could
 watch marketers open our tools and get nothing out of them, not because the
 tools were weak but because no one had helped them across. So I started writing
 documentation on my own, part-time, from Syracuse. I got some things right and
-plenty wrong, all on instinct — until I came across the Diátaxis framework,
-created by Daniele Procida at Canonical, and my instinct finally had a name and
-a shape.
-
-What I did not want was to stop building. I like making tools as much as I like
-explaining them. So when I found the Technical Author role at Canonical — a job
-that asks you to do both, on entirely open-source software, in the very
-framework that had clarified my own thinking — I could not talk myself out of
-it.
+plenty wrong, all on instinct — until I came across the `Diátaxis framework
+<https://diataxis.fr>`_, created by Daniele Procida at Canonical, and my instinct
+finally had a name and a shape.
 
 Seven years of an unlikely academic path — economics, then data science, then
 marketing — turn out to have been pointing at one thing all along. Economics
@@ -72,7 +66,12 @@ helping people do their best with the tools they have.
    :hidden:
    :caption: Portfolio
 
-   projects
+   open-source-contributions
+   presentations
+   personal-projects
+   copywriting
+   blog-posts
+   fiction
 
 .. toctree::
    :hidden:

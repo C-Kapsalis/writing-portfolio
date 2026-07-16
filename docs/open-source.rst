@@ -7,10 +7,8 @@ built, and how I want to work.
 Three things make it matter. The first is **reliability**: software you can fork
 and depend on, certain that no feature you rely on will one day disappear behind
 a paywall. The second is **flexibility**: because you can fork and adapt it, you
-can bend a tool to your organisation's needs instead of the other way around. I
-have done exactly that — taking Microsoft's open-source Fabric toolbox and a
-semantic-model MCP server and getting them to run on Mac and Linux when they
-were never built to. The third, and most important, is **the people**:
+can bend a tool to your organisation's needs instead of the other way around.
+The third, and most important, is **the people**:
 open-source tools tend to be built by people who genuinely care, because the
 work is voluntary. That care shows in the result, in a way it rarely does in
 features shipped only to satisfy some lenient acceptance criterion.
