@@ -69,9 +69,7 @@ helping people do their best with the tools they have.
    open-source-contributions
    presentations
    personal-projects
-   copywriting
    blog-posts
-   fiction
 
 .. toctree::
    :hidden:
