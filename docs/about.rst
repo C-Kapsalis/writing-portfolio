@@ -1,31 +1,27 @@
 About
 =====
 
-I came to technical writing from the inside of the products it serves.
+I am a marketing analyst and BI developer who documents the kind of software he
+comes from. My background is an unusual blend of three degrees, and each left me
+with something I use in documentation every day:
 
-I hold a BSc in Economics (Athens University of Economics & Business), an MSc
-in Data Science (American College of Greece), and an MSc in Marketing
-(Syracuse University, as a Fulbright scholar). I have worked as a marketing
-engineer building analytics and LLM tooling, and before that as a
-marketing-and-analytics specialist. Across those roles the through-line was
-the same: I kept ending up as the person who explained the system — to the
-analysts who used it, the stakeholders who funded it, and increasingly the
-AI tools built on top of it.
+- a **BSc in Economics** (Athens University of Economics and Business),
+- an **MSc in Data Science** (American College of Greece), and
+- an **MSc in Marketing** (Syracuse University, as a Fulbright scholar).
 
-That is what pulls me toward documentation as a discipline. I am not a writer
-who learned the domain second; I am a data person who found that the highest-
-leverage thing I could do was make complex systems legible to the people who
-depend on them.
+Economics taught me to approach a problem whole, in a structured way. Data
+science taught me to read, test and reason about code, and to speak with the
+engineers who write it — my training was in Python, SQL and semantic-web
+technologies, and building ontologies shaped how I think about structuring
+information. Marketing taught me to start from the reader: to stand in someone
+else's shoes and work out what they actually need before writing a word.
 
-What I bring
-------------
-
-- **Docs-as-code fluency:** Git, Sphinx, reStructuredText, CI-published docs.
-- **Diátaxis** as a working tool, not a slogan.
-- **Real domain depth** in data, analytics, SQL, streaming, and machine
-  learning — so "become an expert user" is a short trip, not a long one.
-- **A performance mindset** from years of measuring whether content actually
-  worked.
+Today I work as a marketing engineer at Maya Insights, an AI-powered marketing
+analytics platform, where I develop and document a stack that runs from a
+BigQuery warehouse, through a Power BI semantic model, to a conversational MCP
+layer. Documentation was never in my job title, but it became the centre of my
+practice — the place where my data side and my marketing side finally do the
+same job.
 
 Contact
 -------
