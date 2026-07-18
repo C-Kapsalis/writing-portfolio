@@ -74,6 +74,8 @@ the docs — the bridge the framework keeps pointing back to.
 Project links
 -------------
 
+- `Live GUI <https://bridgekit-puce.vercel.app/>`_ — the browser front end;
+  paste your own OpenRouter key (it stays in your browser) and run the pipeline.
 - `bridgekit repository on GitHub
   <https://github.com/c-kapsalis/bridgekit>`_ — source code, full
   documentation, and release notes.

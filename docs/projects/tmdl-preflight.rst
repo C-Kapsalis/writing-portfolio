@@ -4,7 +4,7 @@ tmdl-preflight — documenting a linter for Power BI models
 
 **An open-source testing and auto-fix suite for Power BI semantic models
 saved as text (TMDL/PBIP), documented end to end with Diátaxis.** I built
-the tool in Python — seventeen rules, four safe auto-fixers, a CLI and a
+the tool in Python — 21 rules, five safe auto-fixers, a CLI and a
 pytest plugin — but the reason it belongs in this portfolio is the
 documentation set that ships with it: fourteen explanation guides, a
 tutorial, four how-to guides and a two-part reference, written as one
@@ -15,11 +15,15 @@ The problem it documents
 
 When Power BI projects are saved in their text-based format, the semantic
 model becomes a folder of plain files — which means merges, scripts and
-hand edits can now produce models that *look* fine and fail on deployment.
-A duplicated identity tag rejects the import. One orphan comma in a field
-parameter takes down every visual that parameter drives. A bookmark field
-that says ``"2"`` instead of ``2`` is refused with a one-line error that
-names neither the file nor the path.
+hand edits can now produce models that *look* fine and fail on deployment,
+or refuse to open at all. A table that lost its ``ref table`` line is not
+attached to the model, so Power BI will not open the project; a table with
+no partition, an inline ``#table`` entity source that silently forces a
+composite model, or a reserved table name like ``Measures`` fails the same
+way. A duplicated identity tag rejects the import. One orphan comma in a
+field parameter takes down every visual that parameter drives. A bookmark
+field that says ``"2"`` instead of ``2`` is refused with a one-line error
+that names neither the file nor the path.
 
 These defects share a shape: mechanical to detect, expensive to discover
 late, and — for a careful subset — mechanical to *repair*. tmdl-preflight
@@ -87,7 +91,7 @@ tool hangs on:
 What I'd point a reviewer at
 ----------------------------
 
-The seventeen explanation-linked rule entries in the reference are the
+The 21 explanation-linked rule entries in the reference are the
 best sample of my reference writing (tight, tabular, no narrative), and
 the twelve precaution guides are the best sample of the opposite mode —
 each one argues a position about a pitfall rather than describing a
@@ -109,4 +113,4 @@ Project links
 The repository ships the project's complete Diátaxis documentation set
 (``docs/`` plus release notes); this page is the showcase, not the docs.
 
-*Python ≥ 3.10, standard library only; 117 passing tests; MIT license.*
+*Python ≥ 3.10, standard library only; 125 passing tests; MIT license.*

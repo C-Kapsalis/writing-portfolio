@@ -80,6 +80,7 @@ helping people do their best with the tools they have.
    projects/tmdl-preflight
    projects/pbi-plot-styler
    projects/tmdl-drift-doctor
+   projects/pbip-model-forge
    projects/cohortica
    projects/cleanleaf
    projects/bridgekit

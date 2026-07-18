@@ -59,6 +59,8 @@ static report pages, but only if the metric catalog stays governed.
 Project links
 -------------
 
+- `Live demo <https://bi-report-template-site.vercel.app/>`_ — the report and
+  the blank-start tutorial, running in the browser.
 - `report-template-site repository on GitHub
   <https://github.com/c-kapsalis/report-template-site>`_ — source code, full
   documentation, and release notes.

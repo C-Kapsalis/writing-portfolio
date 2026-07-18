@@ -73,6 +73,10 @@ properly was a way of applying the product's own philosophy to the product.
 Project links
 -------------
 
+- `Live demo — the member chat <https://cleanleaf-phi.vercel.app/>`_ — the
+  photograph-a-meal loop and score, running in zero-key demo mode.
+- `Live demo — the institution dashboard <https://cleanleaf-phi.vercel.app/admin>`_ —
+  the B2B reporting side, including the SDG/ESG report tab.
 - `cleanleaf repository on GitHub
   <https://github.com/c-kapsalis/cleanleaf>`_ — source code, full
   documentation, and release notes.

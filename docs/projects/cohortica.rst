@@ -80,6 +80,8 @@ the review checklist that keep fifty-nine voices reading as one.
 Project links
 -------------
 
+- `Live site <https://cohortica-studio.vercel.app/>`_ — the playbooks and the
+  two diagnostics, running in the browser.
 - `cohortica repository on GitHub
   <https://github.com/c-kapsalis/cohortica>`_ — source code, the playbook
   corpus, full documentation, and release notes.
