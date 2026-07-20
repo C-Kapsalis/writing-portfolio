@@ -29,21 +29,20 @@ document per reader need rather than one per feature:
   dry-run diff, the apply, and the idempotent re-run that proves the tool
   safe to habituate.
 - **One reference page** for the CLI: every argument, option and config key
-  with its default, the exact JSON properties the tool rewrites — and the
+  with its default, the exact JSON properties the tool rewrites — the
   guarantee that everything else in the file is preserved byte for byte,
-  down to line endings and the end-of-file convention — and the exit codes,
+  down to line endings and the end-of-file convention — the exit codes,
   including the dry-run drift code that turns the style guide into a CI
-  check.
-- **One explanation piece** (*Field-parameter reporting*) on why field
-  parameters beat per-visual hand-formatting, how one page plus bookmarks
-  replaces dozens of static pages, and why formatting must be enforced by
-  regeneration rather than discipline — closing with the trade-offs, stated
-  honestly, of choosing a composable page over a curated one.
+  check, and why formatting must be enforced by regeneration rather than
+  discipline, folded in as reference sections (CI usage, brand palettes,
+  the one Power BI quirk that makes a shared measure catalog worth naming)
+  rather than spun into standalone pages a three-flag tool doesn't need.
 
 The project doubles as a demonstration of a documentation belief of mine:
-that a tool with a strong opinion deserves documentation that argues the
-opinion, teaches it once, and then gets out of the way. Three documents and a
-README cover the whole surface; nothing is written twice.
+that a tool with a strong opinion deserves documentation sized to its
+surface, not to a template. Two documents and a README cover the whole
+tool; nothing is written twice, and nothing is split into its own page
+just because a bigger project would have split it.
 
 Project links
 -------------
