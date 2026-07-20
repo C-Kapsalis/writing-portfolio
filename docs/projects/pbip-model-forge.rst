@@ -93,6 +93,9 @@ Project links
   skills, the byte-exact entered-data encoder, the builder, and the docs (the
   vision, the will-it-open artifact checklist, and the entered-data encoding
   guide).
+- `Documentation site
+  <https://pbip-model-forge-documentation.readthedocs.io/en/latest/index.html>`_
+  — the published Diátaxis docs, on Read the Docs.
 
 *Python ≥ 3.9, standard library only to build a model; requires the
 tmdl-preflight validator, installed separately; MIT license.*

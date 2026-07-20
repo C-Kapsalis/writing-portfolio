@@ -76,7 +76,6 @@ helping people do their best with the tools they have.
    :caption: Project documentation
 
    projects/documenting-bi-reports-for-marketers
-   projects/report-template-site
    projects/tmdl-preflight
    projects/pbi-plot-styler
    projects/tmdl-drift-doctor

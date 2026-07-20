@@ -4,10 +4,9 @@ Documenting BI reports for marketers
 Most of my documentation work has served one reader: a marketer who has been
 given a Power BI report and no data team to stand behind it. This page lays out
 the approach I have developed for that reader — what order to teach things in,
-where the documentation should live, and what it must never assume. A worked,
-end-to-end demonstration of the whole approach is the
-:doc:`report template demo <report-template-site>`, an open-source project
-whose documentation set follows every principle below.
+where the documentation should live, and what it must never assume — and the
+worked, end-to-end demonstration of it, an open-source web app whose
+documentation set follows every principle below.
 
 Assume the tool is scary and the theory is missing
 --------------------------------------------------
@@ -84,20 +83,57 @@ one specific, underserved reader: the non-technical marketer. For them the
 order of arrival matters (explanation first), the surface matters (never the
 BI service), and the glossary must govern, not merely describe.
 
-The :doc:`report template demo <report-template-site>` puts all of it in one
-place: a two-page web app whose first page is the report template itself and
-whose second page *is* the tutorial — blank selectors, guided steps, a saved
-bookmark — with the four topic guides and the glossary built into the same
-friendly surface.
+The demo: report-template-site
+-------------------------------------
+
+report-template-site is a small open-source web app (React + TypeScript,
+deployable to Vercel as a static site) that puts all of the above in one
+place: one combo chart and one matrix, driven entirely by three
+field-parameter selectors — *plot axis*, *legend*, *measures* — with a
+hamburger menu of built-in views and four **bookmarks**, each a saved
+pre-selection that answers one recurring marketing question ("is
+deliverability slipping?", "which sends earned their keep?"). The
+interaction model replicates, in web form, the field-parameter-and-bookmark
+pattern professional BI teams build in Power BI; it runs on twelve months of
+fictional data for an unnamed specialty tea-and-homeware shop, seeded with
+deliberately weak sends and a quietly eroding list segment so that every
+bookmark has a story to tell.
+
+The app's second page *is* the tutorial: empty selectors, an empty canvas,
+and six numbered, coach-marked steps in which the reader picks an axis, a
+legend and their first measures, watches the chart and matrix assemble
+themselves, saves the result as a named bookmark, switches to a built-in
+view, and returns to their own — each step gating its "Next" on the reader
+actually having done the thing, instructional design as UI state. Four short
+explanation guides (the deliverability funnel, CTR versus CTOR, list health
+and erosion, campaigns over time and revenue) live both in the repo's docs
+and inside the app itself, one behind each bookmark, so the discipline
+knowledge arrives at the moment the view raises the question. The report
+also enforces its own glossary: it declines to plot meaningless
+dimension–metric combinations, saying why in a notice, and politely objects
+when a per-send benchmark is asked of a monthly aggregate.
+
+The documentation set is Diátaxis-shaped end to end: two tutorials (using the
+demo, and rebuilding the same template natively in Power BI Desktop with
+field parameters, bookmarks and the selection-pane menu), three how-to guides
+(reading the report, swapping in your own data, deploying), a four-page
+reference layer (glossary, data model, bookmark shape, code map), and five
+explanation pieces — including one arguing the template's own thesis, with
+its trade-offs stated honestly: one canvas plus bookmarks replaces a stack of
+static report pages, but only if the metric catalog stays governed.
 
 Project links
 -------------
 
+- `Live demo <https://bi-report-template-site.vercel.app/>`_ — the report and
+  the blank-start tutorial, running in the browser.
 - `report-template-site repository on GitHub
-  <https://github.com/c-kapsalis/report-template-site>`_ — the demo's source
-  code, full documentation, and release notes.
+  <https://github.com/c-kapsalis/report-template-site>`_ — source code, full
+  documentation, and release notes.
+- `Documentation site
+  <https://bi-report-template-site-documentation.readthedocs.io/en/latest/index.html>`_
+  — the published Diátaxis docs, on Read the Docs.
 
-The demo project ships its complete Diátaxis documentation set (``docs/``
-plus release notes) in its repository; this page describes the approach, and
-the :doc:`showcase page <report-template-site>` describes the project — the
-docs live with the project.
+The repository ships the project's complete Diátaxis documentation set
+(``docs/`` plus release notes); this page describes both the approach and the
+project — the docs live with the project.

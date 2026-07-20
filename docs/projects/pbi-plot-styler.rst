@@ -50,6 +50,9 @@ Project links
 - `pbi-plot-styler repository on GitHub
   <https://github.com/c-kapsalis/pbi-plot-styler>`_ — source code, full
   documentation, and release notes.
+- `Documentation site
+  <https://app.readthedocs.org/projects/pbi-plot-styler-documentation/>`_ —
+  the published Diátaxis docs, on Read the Docs.
 
 The repository ships the project's full documentation set (``docs/`` plus
 release notes), organised with Diátaxis; this page is the showcase, not the
