@@ -68,7 +68,6 @@ helping people do their best with the tools they have.
 
    open-source-contributions
    presentations
-   personal-projects
    blog-posts
 
 .. toctree::
@@ -88,7 +87,6 @@ helping people do their best with the tools they have.
    about
    approach
    open-source
-   colophon
 
 .. toctree::
    :hidden:
