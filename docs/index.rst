@@ -1,7 +1,7 @@
 Christoforos Kapsalis
 =====================
 
-**Technical writer for marketing-analytics and machine-learning products.**
+**Marketing Engineer and Technical Writer**
 
 I grew up in Agrinio, a small agricultural town in western Greece, where I
 spent more hours on a mountain bike than anywhere else. Like most kids from the

@@ -13,7 +13,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # Furo: a clean, modern, responsive theme that reads well on mobile.
 html_theme = "furo"
-html_title = "Christoforos Kapsalis · Technical Writing"
+html_title = "Christoforos Kapsalis"
 
 html_theme_options = {
     "sidebar_hide_name": False,
