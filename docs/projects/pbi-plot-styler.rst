@@ -8,10 +8,10 @@ Python CLI that makes Power BI combo charts presentation-ready: it reads the
 measures a semantic model declares in its *field-parameter* tables and
 deterministically rebuilds every chart's line color, data labels and
 data-label backgrounds, so that any metric anyone adds to the model comes out
-styled for a deck with one command. I wrote the tool, but I treat the project
-as a writing artifact first: its central claim — that per-measure formatting
-in Power BI is a derived artifact that should be regenerated from the model,
-never maintained by hand — is made in prose before it is made in code.
+styled for a deck with one command. I built the tool and its documentation
+together: its central claim — that per-measure formatting in Power BI is a
+derived artifact that should be regenerated from the model, never maintained
+by hand — is argued in prose as deliberately as it is enforced in code.
 
 The documentation is deliberately lean and deliberately Diátaxis-shaped, one
 document per reader need rather than one per feature:

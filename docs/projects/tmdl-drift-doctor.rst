@@ -17,9 +17,9 @@ back out — allowlist-gated, dry-runnable, and recorded in an append-only
 audit ledger.
 
 I built it as an open-source Python package (CLI, parser, safe text-surgery
-engine, 60 tests over a fictional gym-chain fleet), but I present it here
-as a *writing* project, because the documentation is not an appendix to the
-tool — it is half the deliverable, and in places it led the design. Before
+engine, 60 tests over a fictional gym-chain fleet), and its documentation is
+not an appendix to the tool — it is half the deliverable, and in places it
+led the design. Before
 release the suite was also exercised against a production-scale fleet — a
 108-table, 614-measure template with three derived client models, ~780
 findings — so the claims below are validated, not merely tested.

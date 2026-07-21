@@ -23,8 +23,9 @@ stand up a *real* data model themselves, in plain conversation — capturing the
 tables, relationships and measures their questions actually need — so they can
 extract insight, justify their priorities, and express their value to
 stakeholders in concrete terms, no longer blocked on scarce data resources to
-prove the point. I lead the documentation with that framing because it is the
-reason the project exists; the engineering underneath is in service of it.
+prove the point. I built the tool end to end — two Claude Code skills, a
+byte-exact entered-data encoder, a validating builder — and I lead with that
+mission here because it is the reason the project exists.
 
 What it does
 ------------

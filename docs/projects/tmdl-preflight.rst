@@ -1,14 +1,13 @@
 
-tmdl-preflight — documenting a linter for Power BI models
-=========================================================
+tmdl-preflight — a linter for Power BI models, built and documented
+====================================================================
 
 **An open-source testing and auto-fix suite for Power BI semantic models
-saved as text (TMDL/PBIP), documented end to end with Diátaxis.** I built
-the tool in Python — 21 rules, five safe auto-fixers, a CLI and a
-pytest plugin — but the reason it belongs in this portfolio is the
-documentation set that ships with it: fourteen explanation guides, a
-tutorial, four how-to guides and a two-part reference, written as one
-coherent body rather than an afterthought.
+saved as text (TMDL/PBIP).** I built the tool in Python — 21 rules, five
+safe auto-fixers, a CLI and a pytest plugin — and gave it a documentation
+set built just as deliberately: fourteen explanation guides, a tutorial,
+four how-to guides and a two-part reference, written as one coherent body
+rather than an afterthought.
 
 The problem it documents
 ------------------------

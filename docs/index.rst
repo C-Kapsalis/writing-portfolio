@@ -72,10 +72,10 @@ helping people do their best with the tools they have.
 
 .. toctree::
    :hidden:
-   :caption: Project documentation
+   :caption: Projects I've built
 
    projects/documenting-bi-reports-for-marketers
-   projects/tmdl-preflight
+   tmdl-preflight <projects/tmdl-preflight>
    projects/pbi-plot-styler
    projects/tmdl-drift-doctor
    projects/pbip-model-forge
