@@ -75,7 +75,7 @@ helping people do their best with the tools they have.
    :caption: Projects I've built
 
    projects/documenting-bi-reports-for-marketers
-   tmdl-preflight <projects/tmdl-preflight>
+   projects/tmdl-preflight
    projects/pbi-plot-styler
    projects/tmdl-drift-doctor
    projects/pbip-model-forge

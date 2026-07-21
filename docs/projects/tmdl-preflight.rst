@@ -1,6 +1,6 @@
 
-tmdl-preflight — a linter for Power BI models, built and documented
-====================================================================
+tmdl-preflight
+==============
 
 **An open-source testing and auto-fix suite for Power BI semantic models
 saved as text (TMDL/PBIP).** I built the tool in Python — 21 rules, five
