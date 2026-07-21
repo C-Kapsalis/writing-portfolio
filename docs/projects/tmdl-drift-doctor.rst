@@ -69,6 +69,9 @@ Project links
   <https://github.com/c-kapsalis/tmdl-drift-doctor>`_ — source code, full
   documentation, release notes, and a runnable example fleet (a fictional
   gym chain) under ``examples/``.
+- `Documentation site
+  <https://tmdl-drift-doctor-documentation.readthedocs.io/en/latest/>`_ —
+  the published Diátaxis docs, on Read the Docs.
 
 The repository ships the project's complete Diátaxis documentation set
 (``docs/`` plus release notes); this page is the showcase, not the docs.
