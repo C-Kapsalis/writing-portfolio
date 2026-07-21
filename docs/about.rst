@@ -2,7 +2,7 @@ About
 =====
 
 I am a technical writer whose home turf is **marketing analytics and
-machine-learning products** — I document the kind of software I came up building
+machine-learning products**. I document the kind of software I came up building
 and using. My background is an unusual blend of three degrees, and each left me
 with something I use every day: a BSc in Economics (Athens University of
 Economics and Business), an MSc in Data Science (American College of Greece),
@@ -11,14 +11,14 @@ Gamma Sigma inductee).
 
 Economics taught me to approach a problem whole, in a structured way. Data
 science taught me to read, test and reason about code, and to speak with the
-engineers who write it. Marketing taught me to start from the reader — to work
+engineers who write it. Marketing taught me to start from the reader: to work
 out what someone actually needs before writing a word. Documentation is where
 all three finally do the same job.
 
 Domain expertise
 ----------------
 
-**Marketing and digital-marketing analytics** — my centre of gravity. Paid
+**Marketing and digital-marketing analytics**, my center of gravity. Paid
 search and performance marketing (SEM, SEO, email, paid social); marketing
 measurement (marketing-mix modeling, customer lifetime value, CAC, ROAS); and
 the platforms behind it (Google Analytics 4, HubSpot, Power BI, Looker Studio).
@@ -32,7 +32,7 @@ Protocol). An MSc in Data Science, and hands-on work building an LLM-to-data
 integration layer in production.
 
 **Documentation as code.** Git, Sphinx, reStructuredText and CI-published docs,
-structured with Diátaxis — the craft that carries the two domains above.
+structured with Diátaxis, the craft that carries the two domains above.
 
 I acquire a domain the way good documentation demands: formal training where I
 have it, hands-on use of the product, and structured conversations with the
@@ -46,8 +46,8 @@ AI is not a side interest for me; it is part of what I build and how I work. At
 layer that lets marketers
 query a data model in natural language, so I have seen first-hand how completely
 the quality of an answer depends on the quality of the documentation beneath it.
-I use LLMs throughout my own documentation workflow — drafting, editing and
-pressure-testing structure — and, more concretely, I encode a project's or a
+I use LLMs throughout my own documentation workflow (drafting, editing, and
+pressure-testing structure), and, more concretely, I encode a project's or a
 company's documentation guidelines into reusable AI skills that I invoke
 iteratively against each draft, so a piece is checked against the house style,
 terminology and structure rules before it ships. I treat prompt engineering as

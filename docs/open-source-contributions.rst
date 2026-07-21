@@ -1,8 +1,8 @@
 Open-source contributions
 =========================
 
-**Diátaxis — documentation typo fix.** A small fix to the documentation of the
-Diátaxis framework itself — the very framework I use to structure my own
+**Diátaxis: documentation typo fix.** A small fix to the documentation of the
+Diátaxis framework itself, the very framework I use to structure my own
 documentation. Modest in size, but it took me through the project's
 contribution workflow end to end and, more usefully, made me read the source
 material closely.

@@ -4,16 +4,16 @@ Skills
 Domain expertise
 ----------------
 
-**Marketing analytics** — SEM, SEO, email and paid social; marketing-mix
+**Marketing analytics**: SEM, SEO, email and paid social; marketing-mix
 modeling, customer lifetime value, CAC and ROAS; Google Analytics 4, HubSpot,
 Power BI (advanced DAX), Looker Studio, Tableau, Excel (Power Query, Power
 Pivot, Solver).
 
-**Machine learning and data** — Python (pandas, scikit-learn, LLM APIs); NLP and
+**Machine learning and data**: Python (pandas, scikit-learn, LLM APIs); NLP and
 transformers (BERT, spaCy); retrieval-augmented generation (LangChain,
 ChromaDB); SQL (BigQuery, DuckDB); R.
 
-**Documentation and engineering** — Git, Sphinx, reStructuredText, Diátaxis,
+**Documentation and engineering**: Git, Sphinx, reStructuredText, Diátaxis,
 Docker.
 
 Certifications
@@ -26,4 +26,4 @@ DataCamp Data Analyst with R · Introduction to Communication Science
 Languages
 ---------
 
-Greek (native) · English (fluent — IELTS band 8.5).
+Greek (native) · English (fluent, IELTS band 8.5).
