@@ -79,6 +79,7 @@ helping people do their best with the tools they have.
    projects/pbi-plot-styler
    projects/tmdl-drift-doctor
    projects/pbip-model-forge
+   projects/cohortica
 
 .. toctree::
    :hidden:
